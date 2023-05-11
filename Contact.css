@@ -1,0 +1,60 @@
+form{
+   
+  box-shadow: 7px 7px #888888;
+  border: black 1px solid;
+
+}
+#SubmitButton{
+    border:1px solid;
+    background-color: #006699;
+    color: white;
+    font-weight: bolder;
+    font-size: large;
+border-radius: 10px;
+width: 200px;
+padding: 8px;
+  }
+  #SubmitButton:hover{
+    color: orange;
+  }
+  button{
+    box-shadow:  0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  textarea{
+    border-radius: 10px;
+    box-shadow:  0 8px 16px 0 rgba(0,0,0,0.2);
+    padding: 8px;
+  }
+#main{
+margin: 10px;
+
+}
+#left{
+
+ 
+  margin: 5px;
+  padding: 4px;
+  display: inline;
+  float: left;
+  width: 48%;
+}
+#right{
+ 
+  margin: 5px;
+  width: 48%;
+  padding:4px;
+  display: inline;
+  float: right;
+}
+ 
+
+ button:active {
+  background-color: rgba(0,0,0,0.2);
+  
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  transform: translateY(4px);
+}
+input{
+  box-shadow:  0 8px 16px 0 rgba(0,0,0,0.2);
+}
